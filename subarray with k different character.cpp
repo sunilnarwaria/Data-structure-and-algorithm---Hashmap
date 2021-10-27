@@ -1,4 +1,6 @@
- int subarraysWithKDistinct(vector<int>& A, int K) {
+ // Leetcode 992
+
+int subarraysWithKDistinct(vector<int>& A, int K) {
         return atMostK(A, K) - atMostK(A, K - 1);
     }
     int atMostK(vector<int>& A, int K) {
