@@ -16,6 +16,12 @@ int subarraysWithKDistinct(vector<int>& A, int K) {
         }
         return res;
     }
+
+
+
+// method 2
+
+
  int atMostKDistinct(vector<int>& A,int n,int k){
     int count = 0;
     int left = 0;
